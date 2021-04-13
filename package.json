@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-react-node-graphql",
+  "version": "1.0.0",
+  "description": "Leanrning GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "dev": "npx nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "knex-migrate": "^1.7.4",
+    "pg": "^8.6.0",
+    "postgraphile": "^4.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
